@@ -1,0 +1,43 @@
+# Here is the list of packages automatically derived by QPT
+# you can ignore the dependent packages in the main package and only care about the main package
+# For example, you need to install paddlepaddle and pillow, because paddlepaddle relies on pillow, so you only need to install paddlepaddle.
+# ---------------------------------------------------------------------
+# QPT Home:        https://github.com/GT-ZhangAcer/QPT
+# ---------------------------------------------------------------------
+# 
+# -------------Mainly depends on package analysis results--------------
+
+pymysql==1.0.2
+flask-cors==3.0.10
+gevent==21.8.0
+exifread==2.3.2
+ttkbootstrap==0.5.1
+seaborn==0.11.2
+
+# ----------------------Ignored dependent packages---------------------
+#opencv-python==4.5.3.56
+#openpyxl==3.0.9
+#tqdm==4.62.3
+#xlrd==2.0.1
+
+# ----------------------Ignored sub dependent packages---------------------
+
+# -----Dependencies of flask-cors
+#six
+#flask>=0.9
+
+# -----Dependencies of gevent
+#zope.interface
+#setuptools
+#cffi>=1.12.2
+#greenlet<2.0,>=1.1.0
+#zope.event
+
+# -----Dependencies of ttkbootstrap
+#pillow>=8.2.0
+
+# -----Dependencies of seaborn
+#numpy>=1.15
+#scipy>=1.0
+#pandas>=0.23
+#matplotlib>=2.2
